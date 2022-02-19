@@ -1,0 +1,32 @@
+.favorite-color {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favorite-color-color {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-color-color > span {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 150px;
+  background-color: rgba(173, 173, 173, 0.5);
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+.favorite-color-option{
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+}

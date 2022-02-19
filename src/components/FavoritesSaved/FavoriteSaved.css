@@ -1,0 +1,30 @@
+.favorite-page{
+    padding: 30px 0;
+}
+
+.favorite-page-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.favorite-page-colors{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media screen and (min-width: 1260px) {
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
